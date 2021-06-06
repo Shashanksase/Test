@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class werwerwerer {
+public class Percentage {
 	private static Scanner sc;
 	public static void main(String[] args) 
 	{
