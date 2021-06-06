@@ -5,11 +5,11 @@ public class CBSEPercentage {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
-		
+
 		System.out.print("Enter you physic marks: ");
 		int physics = scan.nextInt();
 		int phy = physics;
-		if (phy<100) {
+		if (phy < 100) {
 			System.out.println("The value enter is below 100  ");
 		} else {
 			System.out.println("The value enter is above 100 ");
