@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.ScrollByPixel">
+      <class name="selenium.AlertHandle">
         <methods>
-          <include name="ByPixel"/>
+          <include name="alertWindow"/>
         </methods>
-      </class> <!-- practice.ScrollByPixel -->
+      </class> <!-- selenium.AlertHandle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

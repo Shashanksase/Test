@@ -1,9 +1,9 @@
 package selenium;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 @SuppressWarnings("unused")
 public class Headless {
@@ -12,10 +12,12 @@ public class Headless {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\c00423\\eclipse-workspace\\Test\\Drivers\\chromedriver.exe");
 
+		
+		//FirefoxDriver driver = new FirefoxDriver();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 
-		WebDriver driver = new ChromeDriver(options);
+		ChromeDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 
 		driver.get("https://www.google.com");
